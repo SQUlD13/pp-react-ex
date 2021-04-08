@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/pp-react-ex/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/pp-react-ex/static/js/main.11207816.chunk.js",
-    "main.js.map": "/pp-react-ex/static/js/main.11207816.chunk.js.map",
-    "runtime-main.js": "/pp-react-ex/static/js/runtime-main.d214a170.js",
-    "runtime-main.js.map": "/pp-react-ex/static/js/runtime-main.d214a170.js.map",
-    "static/js/2.0e07a33b.chunk.js": "/pp-react-ex/static/js/2.0e07a33b.chunk.js",
-    "static/js/2.0e07a33b.chunk.js.map": "/pp-react-ex/static/js/2.0e07a33b.chunk.js.map",
-    "static/js/3.980c368d.chunk.js": "/pp-react-ex/static/js/3.980c368d.chunk.js",
-    "static/js/3.980c368d.chunk.js.map": "/pp-react-ex/static/js/3.980c368d.chunk.js.map",
+    "main.css": "/pp-react-ex/static/css/main.160edfa3.chunk.css",
+    "main.js": "/pp-react-ex/static/js/main.55c97679.chunk.js",
+    "main.js.map": "/pp-react-ex/static/js/main.55c97679.chunk.js.map",
+    "runtime-main.js": "/pp-react-ex/static/js/runtime-main.2dc4ccca.js",
+    "runtime-main.js.map": "/pp-react-ex/static/js/runtime-main.2dc4ccca.js.map",
+    "static/js/2.572a4eb8.chunk.js": "/pp-react-ex/static/js/2.572a4eb8.chunk.js",
+    "static/js/2.572a4eb8.chunk.js.map": "/pp-react-ex/static/js/2.572a4eb8.chunk.js.map",
+    "static/js/3.c47724ce.chunk.js": "/pp-react-ex/static/js/3.c47724ce.chunk.js",
+    "static/js/3.c47724ce.chunk.js.map": "/pp-react-ex/static/js/3.c47724ce.chunk.js.map",
     "index.html": "/pp-react-ex/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/pp-react-ex/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.0e07a33b.chunk.js.LICENSE.txt": "/pp-react-ex/static/js/2.0e07a33b.chunk.js.LICENSE.txt",
+    "static/css/main.160edfa3.chunk.css.map": "/pp-react-ex/static/css/main.160edfa3.chunk.css.map",
+    "static/js/2.572a4eb8.chunk.js.LICENSE.txt": "/pp-react-ex/static/js/2.572a4eb8.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/pp-react-ex/static/media/fa-solid-900.915a0b79.ttf",
     "static/media/logo.6ce24c58.svg": "/pp-react-ex/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d214a170.js",
-    "static/js/2.0e07a33b.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.11207816.chunk.js"
+    "static/js/runtime-main.2dc4ccca.js",
+    "static/js/2.572a4eb8.chunk.js",
+    "static/css/main.160edfa3.chunk.css",
+    "static/js/main.55c97679.chunk.js"
   ]
 }
