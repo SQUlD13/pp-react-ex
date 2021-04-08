@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/SQUlD13/pp-react-ex/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/SQUlD13/pp-react-ex/static/js/main.11207816.chunk.js",
-    "main.js.map": "/SQUlD13/pp-react-ex/static/js/main.11207816.chunk.js.map",
-    "runtime-main.js": "/SQUlD13/pp-react-ex/static/js/runtime-main.ff7d581d.js",
-    "runtime-main.js.map": "/SQUlD13/pp-react-ex/static/js/runtime-main.ff7d581d.js.map",
-    "static/js/2.0e07a33b.chunk.js": "/SQUlD13/pp-react-ex/static/js/2.0e07a33b.chunk.js",
-    "static/js/2.0e07a33b.chunk.js.map": "/SQUlD13/pp-react-ex/static/js/2.0e07a33b.chunk.js.map",
-    "static/js/3.980c368d.chunk.js": "/SQUlD13/pp-react-ex/static/js/3.980c368d.chunk.js",
-    "static/js/3.980c368d.chunk.js.map": "/SQUlD13/pp-react-ex/static/js/3.980c368d.chunk.js.map",
-    "index.html": "/SQUlD13/pp-react-ex/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/SQUlD13/pp-react-ex/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.0e07a33b.chunk.js.LICENSE.txt": "/SQUlD13/pp-react-ex/static/js/2.0e07a33b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/SQUlD13/pp-react-ex/static/media/logo.6ce24c58.svg"
+    "main.css": "/pp-react-ex/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/pp-react-ex/static/js/main.11207816.chunk.js",
+    "main.js.map": "/pp-react-ex/static/js/main.11207816.chunk.js.map",
+    "runtime-main.js": "/pp-react-ex/static/js/runtime-main.d214a170.js",
+    "runtime-main.js.map": "/pp-react-ex/static/js/runtime-main.d214a170.js.map",
+    "static/js/2.0e07a33b.chunk.js": "/pp-react-ex/static/js/2.0e07a33b.chunk.js",
+    "static/js/2.0e07a33b.chunk.js.map": "/pp-react-ex/static/js/2.0e07a33b.chunk.js.map",
+    "static/js/3.980c368d.chunk.js": "/pp-react-ex/static/js/3.980c368d.chunk.js",
+    "static/js/3.980c368d.chunk.js.map": "/pp-react-ex/static/js/3.980c368d.chunk.js.map",
+    "index.html": "/pp-react-ex/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/pp-react-ex/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.0e07a33b.chunk.js.LICENSE.txt": "/pp-react-ex/static/js/2.0e07a33b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/pp-react-ex/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff7d581d.js",
+    "static/js/runtime-main.d214a170.js",
     "static/js/2.0e07a33b.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.11207816.chunk.js"
