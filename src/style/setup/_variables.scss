@@ -1,0 +1,17 @@
+@import 'functions';
+
+:root{
+    --clr-shadow:#{$clr-shadow};
+}
+
+$subtle-flat-shadow:0 2px 0 0 $clr-shadow;
+$medium-flat-shadow:0 4px 0 0 $clr-shadow;
+$subtle-text-shadow:makeTextShadow(0, 2, $clr-shadow,0,0);
+$medium-text-shadow:makeTextShadow(0, 4, $clr-shadow,0,0);
+
+// Breakpoints
+$mobile-breakpoint: 460px;
+$narrow-breakpoint: 720px;
+$normal-breakpoint: 960px;
+
+$normal-page-width:85%;

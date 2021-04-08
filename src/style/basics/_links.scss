@@ -1,0 +1,11 @@
+a {
+  color: $clr-link;
+  padding:10px 0;
+  text-decoration: none;
+  &:visited{
+    color:darken($clr-link,15)
+  }
+  &:hover{
+    color: lighten($clr-link, 10);
+  }
+}

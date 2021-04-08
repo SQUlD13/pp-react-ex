@@ -1,0 +1,42 @@
+
+// Colors
+
+//Base
+$clr-black:#12161c;
+$clr-gray-dark:#313535;
+$clr-gray-md-dark:#7B7484;
+$clr-gray-md-light:#B0A8B9;
+$clr-gray-light:#aeaead;
+$clr-white:#ebf4f2;
+
+//Product Palette
+$clr-link:#00C9A7;
+$clr-primary:#5F428F;
+$clr-secondary: #E7617E;
+$clr-accent:#FF8B68;
+$clr-highlight:#F2C94C;
+$clr-shadow:#24242483;
+
+//Syntactical Palletes
+//Bool
+$clr-pos:#71d165;
+$clr-neg: #B03939;
+
+//Conversion to css variables
+:root{
+    --clr-primary: #{$clr-primary};
+    --clr-secondary:#{$clr-secondary};
+    --clr-accent:#{$clr-accent};
+    --clr-highlight:#{$clr-highlight};
+    --clr-link:#{$clr-link};
+
+    --clr-black:#{$clr-black};
+    --clr-gray-dark:#{$clr-gray-dark};
+    --clr-gray-md-dark:#{$clr-gray-md-dark};
+    --clr-gray-md-light:#{$clr-gray-md-light};
+    --clr-gray-light:#{$clr-gray-light};
+    --clr-white:#{$clr-white};
+
+    --clr-pos:#{$clr-pos};
+    --clr-neg:#{$clr-neg};
+}
