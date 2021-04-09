@@ -1,0 +1,32 @@
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  user-select: none;
+}
+
+a.App-link{
+  transition: getTransition(ease-in, .25s, (color,text-shadow));
+  $background-shadow:rgb(59, 40, 61);
+  text-shadow: getTextShadow(4,4,0,0,darken($clr-link,25)), getTextShadow(-9,8,4,4,$background-shadow);
+  &:hover{
+    text-shadow: getTextShadow(4,4,0,0,darken($clr-link,8)), getTextShadow(-9,8,4,4,$background-shadow);
+  }
+  &:visited{
+    text-shadow: getTextShadow(4,4,0,0,darken($clr-link,33)), getTextShadow(-9,8,4,4,$background-shadow);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

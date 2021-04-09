@@ -1,0 +1,33 @@
+.highlights{
+    height: 100vh;
+    width:100vw;
+    background:$clr-prim2;
+    div.content{
+        display: flex;
+        .description{
+            color:white;
+            margin-block: 200px;
+            max-width: 445px;
+            margin-inline-end: 125px;
+        }
+    }
+
+    @include for-mobile-layout{
+        height: unset;
+        div.content{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            .description{
+                width: 100%;
+                margin-block-start: 135px;
+                margin-block-end: 55px;
+                margin-inline-end: unset;
+                .container>*{
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+}

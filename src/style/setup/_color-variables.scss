@@ -2,17 +2,21 @@
 // Colors
 
 //Base
-$clr-black:#12161c;
-$clr-gray-dark:#313535;
-$clr-gray-md-dark:#7B7484;
+$clr-prim1:#9E7F66;
+$clr-prim2: #111111;
+
+$clr-sec1:#17192B;
+$clr-sec2:#242B37;
+$clr-sec3:#7B7484;
+
 $clr-gray-md-light:#B0A8B9;
 $clr-gray-light:#aeaead;
 $clr-white:#ebf4f2;
 
 //Product Palette
 $clr-link:#00C9A7;
-$clr-primary:#5F428F;
-$clr-secondary: #E7617E;
+
+
 $clr-accent:#FF8B68;
 $clr-highlight:#F2C94C;
 $clr-shadow:#24242483;
@@ -24,18 +28,15 @@ $clr-neg: #B03939;
 
 //Conversion to css variables
 :root{
-    --clr-primary: #{$clr-primary};
-    --clr-secondary:#{$clr-secondary};
+    --clr-prim1: #{$clr-prim1};
+    --clr-prim2:#{$clr-prim2};
     --clr-accent:#{$clr-accent};
     --clr-highlight:#{$clr-highlight};
     --clr-link:#{$clr-link};
 
-    --clr-black:#{$clr-black};
-    --clr-gray-dark:#{$clr-gray-dark};
-    --clr-gray-md-dark:#{$clr-gray-md-dark};
-    --clr-gray-md-light:#{$clr-gray-md-light};
-    --clr-gray-light:#{$clr-gray-light};
-    --clr-white:#{$clr-white};
+    --clr-sec1:#{$clr-sec1};
+    --clr-sec2:#{$clr-sec2};
+    --clr-sec3:#{$clr-sec3};
 
     --clr-pos:#{$clr-pos};
     --clr-neg:#{$clr-neg};

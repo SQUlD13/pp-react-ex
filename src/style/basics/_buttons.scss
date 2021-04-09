@@ -2,37 +2,34 @@
 
 button{
     $darken-amount:25;
-    border:3px solid transparent;
-    border-radius: 5px;
+    border:1px solid white;
+    color:white;
+    background:transparent;
+    font-family: 'Spartan', sans-serif;
+    font-size: inherit;
+    text-transform: uppercase;
+    white-space: nowrap;
+
     outline: 0;
-    background-color: $clr-primary;
-    color: set-color($clr-primary,55);
-    padding-block: 5px;
+
+    height: 64px;
     
-    $categories:border,border-color,background-color;
-    $transition-string: getTransition(linear, .25s, $categories);
-    transition:$transition-string;
+    max-width: 250px;
+    padding-inline: 2em;
     
+    transition:all .2s ease;
     &:hover{
-        border:3px solid transparentize( set-color($clr-primary,55) , 0.5)
+        background:white;
+        color:black;
     }
     &:active{
-        $color: darken($clr-primary,$darken-amount);
-        background-color: $color;
+        $color: darken($clr-prim1,$darken-amount);
+        background: $color;
         color:set-color($color,55);
     }
     &:focus{
-        border-color:darken($clr-primary,$darken-amount);
+        border:darken($clr-prim1,$darken-amount);
     }
 }
 
 
-button.delete-button{
-    background:transparent;
-    color:$clr-neg;
-    font-size:22px;
-    border-radius: 50%;
-    &:hover{
-        background:transparentize($clr-black , 0.4)
-    }
-}

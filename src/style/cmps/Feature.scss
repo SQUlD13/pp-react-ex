@@ -1,0 +1,31 @@
+.feature{
+    position:relative;
+    .content{
+        font-size: rem(18px);
+        display: flex;
+        align-items: center;
+
+        width:$desktop-page-width;
+        position: relative;
+
+        z-index: 1;
+        .description{
+            color:$clr-sec1;
+        }
+        &>:first-child{
+            position: relative;
+            margin-inline-end: 125px;
+            top:-25px;
+            box-shadow: 0 75px 100px -50px #384255;
+        }
+        @include for-mobile-layout{
+            flex-flow: column;
+            height:100%; width:100%;
+            img:not(.flourish){
+                margin-inline-end: 0;
+                width:100%;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+.highlight-list{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    box-sizing: border-box;
+    &>*:not(:last-child){
+        padding-block-end: 25px;
+        margin-block-end: 25px;
+        border-bottom: 1px solid $clr-sec3;
+    }
+    @include for-mobile-layout{
+        &>*{
+            margin-block-end: 125px;
+        }
+    }
+    
+}

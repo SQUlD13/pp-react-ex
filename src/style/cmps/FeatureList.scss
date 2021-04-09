@@ -1,0 +1,29 @@
+.features{
+    z-index: 1;
+    .container{
+        &>:nth-child(2){
+            .content{
+                flex-direction: row-reverse;
+                & img:not(.flourish){
+                    top:25px;
+                    margin-inline-end: 0;
+                    margin-inline-start: 125px;
+                }
+                margin-block-end: 50px;
+            }
+        }
+        @include for-mobile-layout{
+            &>:nth-child(2){
+            .content{
+                flex-flow: column;
+                & img:not(.flourish){
+                    top:unset;
+                    margin-inline-end: unset;
+                    margin-inline-start: unset;
+                }
+                margin-block-end: 50px;
+            }
+        }
+        }
+    }
+}

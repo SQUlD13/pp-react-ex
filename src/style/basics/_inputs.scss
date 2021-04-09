@@ -18,10 +18,10 @@ input{
         
     }
     &:focus{
-        border-bottom-color:$clr-primary;
+        border-bottom-color:$clr-prim1;
     }
     &:active{
-        border-bottom-color: darken($clr-primary,20);
+        border-bottom-color: darken($clr-prim1,20);
         transition: .1s linear border, .1s linear border-radius;
     }
 }

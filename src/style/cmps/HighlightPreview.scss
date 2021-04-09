@@ -1,0 +1,38 @@
+.highlight-preview{
+    display: flex;
+    max-width: 540px;
+    max-height: 96px;
+    box-sizing: content-box;
+    .highlight-img{
+        position:relative;
+        z-index: 1;
+        img:not(.flourish){
+            object-fit: contain;
+            height:100%;
+            width:128px;
+            margin-inline-end: 62px;
+        }
+        img.flourish{
+            position: absolute;
+            left:100px;
+            z-index: -1;
+        }
+    }
+    .content{
+        font-size: rem(18px);
+        display: flex;
+        flex-flow: column;
+        color:whitesmoke;
+        h1{
+            font-size:1em;
+            font-weight: 700;
+            margin-block-end: 4px;
+            line-height: 1.55;
+        }
+        p{
+            font-size:0.833em;
+            margin-block: 0;
+            line-height: 1.867;
+        }
+    }
+}

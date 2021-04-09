@@ -12,28 +12,22 @@
 
 .ratio-poster { @include aspect-ratio(100, 150); }
 
-.profile-picture{
-    background: $clr-gray-dark;
-    border-radius: 15px;
-    box-shadow:$subtle-flat-shadow;
-    height: 150px; width:150px;
-    &.round{
-        border-radius: 50%;
-    }
-    &.large{
-        box-shadow:$medium-flat-shadow;
-        height:350px;width:350px;
-    }
-    &.small{
-        height:50px;width:50px;
-    }
-}
+
 //Basic helpers
 .clean-list{
     padding:0;
     margin:0;
     list-style: none;
 }
+
+.container{
+    max-width: $desktop-page-width;
+    margin:0 auto;
+    @include for-mobile-layout{
+        max-width: $mobile-page-width;
+    }
+}
+
 /* FLEX - BASE */
 .flex{
     display:flex;

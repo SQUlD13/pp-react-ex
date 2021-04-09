@@ -11,10 +11,10 @@
 //returns a color by calculating the lightness of the passed color.
 @function set-color($color,$clamp) {
     @if (lightness($color) < $clamp) {
-      @return $clr-white;
+      @return $clr-sec1;
     }
     @else {
-      @return $clr-black;
+      @return $clr-sec3;
     }
 }
 

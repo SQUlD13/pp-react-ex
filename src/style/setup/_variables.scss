@@ -10,8 +10,9 @@ $subtle-text-shadow:makeTextShadow(0, 2, $clr-shadow,0,0);
 $medium-text-shadow:makeTextShadow(0, 4, $clr-shadow,0,0);
 
 // Breakpoints
-$mobile-breakpoint: 460px;
+$mobile-breakpoint: 960px;
 $narrow-breakpoint: 720px;
-$normal-breakpoint: 960px;
+$normal-breakpoint: 1000px;
 
-$normal-page-width:85%;
+$desktop-page-width:1110px;
+$mobile-page-width:570px;
